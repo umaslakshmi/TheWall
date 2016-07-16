@@ -1,0 +1,20 @@
+#container{
+	width: 970px;
+	margin: 0 auto;
+}
+	#container div{
+		width: 440px;
+		height: 400px;
+		display: inline-block;
+		vertical-align: top;
+		border: 1px solid black;
+		padding: 20px;
+	}
+form input, form label{
+	display: block;
+	margin-top: 5px; 
+}
+form label{
+	padding-top: 5px;
+	padding-bottom: 5px;
+}

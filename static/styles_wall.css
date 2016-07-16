@@ -1,0 +1,47 @@
+#container{
+	width: 970px;
+	margin: 0 auto;
+}
+
+#body{
+	width: 800px;
+	margin: 0 auto;
+}
+
+textarea{
+	width: 700px;
+}
+
+#header{
+	border-bottom: 1px solid black;
+}
+	#header h1, #header p, #header a{
+		display: inline-block;
+		color: #33cccc;
+	}
+	#header p{
+		margin-left: 50%;
+	}
+	#header a{
+		margin-left: 10%;
+	}
+
+form textarea, form input{
+	display: block;
+}
+
+form input{
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.message p:first-child{
+	color: #3366cc;
+}
+
+.comment{
+	margin-left: 5%; 
+}
+	.comment p:first-child{
+		color: #00ccff;
+	}
